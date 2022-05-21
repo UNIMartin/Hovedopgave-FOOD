@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	background-color: #ede6d8;
+}
+
+h2 {
+	color: #c8a12e;
+	font-family: Kulturista SemiBold;
+}
+
+p {
+	font-family:  Avenir;
+}
+
+i {
+	color: #c8a12e;
+}
+
+header {
+	margin-bottom: 100px;
+}
+#header-logo {
+	width: 40%;
+	display: block;
+	margin: auto;
+}
+#header-img {
+	width: 50%;
+	display: block;
+	margin: auto;
+	outline: auto;
+	outline-color: #c8a12e;
+}
+
+.title {
+	text-align: center;
+	font-size: 36px;
+}
+
+.main-text {
+	font-size: 24px;
+}
+
+.text {
+	margin-left: 100px;
+	margin-bottom: 200px;
+	margin-right: 100px;
+}
+
+.text-img {
+	width: 40%;
+	display: block;
+	margin: auto;
+	outline: auto;
+	outline-color: #c8a12e;
+}
+
+#food-logo {
+	width: 20%;
+	float: right;
+	margin-bottom: 50px;
+	margin-top: -100px;
+}
+
+
+@media only screen and (max-width: 900px) {
+	.title {
+		font-size: 28px;
+	}
+	.main-text {
+		font-size: 20px;
+	}
+	.text {
+	margin-left: 70px;
+	margin-bottom: 120px;
+	margin-right: 70px;
+	}
+	#header-logo {
+		width: 60%;
+	}
+	#header-img {
+		width: 70%;
+	}
+	.text-img {
+		width: 60%;
+	}
+	#food-logo {
+		width: 30%;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.title {
+		font-size: 20px;
+	}
+	.main-text {
+		font-size: 12px;
+	}
+	.text {
+	margin-left: 25px;
+	margin-bottom: 50px;
+	margin-right: 25px;
+	}
+	#header-logo {
+		width: 70%;
+	}
+	#header-img {
+		width: 80%;
+	}
+	.text-img {
+		width: 70%;
+	}
+	#food-logo {
+		width: 30%;
+		margin-right: -10px;
+		margin-top: -50px;
+		margin-bottom: 25px;
+	}
+}
